@@ -158,6 +158,32 @@ export const PROJECTS: ProjectItem[] = [
   },
 ];
 
+{
+    id: 'foodgrid',
+    title: 'FoodGrid',
+    category: 'AI & Sustainability',
+    categoryBadge: 'AI FOOD WASTE REDUCTION',
+    badgeColor: 'primary',
+    image: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80',
+    altText: 'Fresh food and sustainable food management concept representing food waste reduction and redistribution.',
+    description: 'An AI-powered ecosystem designed to predict food demand, detect surplus early, and intelligently redistribute excess food to nearby organizations in need.',
+    detailedDescription: 'FoodGrid is a smart food waste reduction and sustainable redistribution ecosystem for institutional kitchens and food processing units. It combines demand forecasting, waste intelligence, surplus detection, dynamic recipient matching, and sustainability tracking to reduce avoidable food waste.',
+    tags: ['AI/ML', 'Python', 'Data Analytics', 'Sustainability'],
+    icon: 'recycling',
+    highlightStat: 'Predicts surplus early and supports intelligent food redistribution',
+    type: 'software',
+    features: [
+      'AI-powered food demand and surplus forecasting',
+      'Waste root-cause analysis to identify recurring waste patterns',
+      'Dynamic surplus matching based on quantity, distance, and urgency',
+      'Sustainability dashboard tracking waste prevented and environmental impact'
+    ],
+    techStack: ['Python', 'AI/ML', 'Data Analytics', 'React', 'MySQL']
+  },
+
+];
+
+
 export const ACHIEVEMENTS: AchievementItem[] = [
   {
     id: 'head-girl',
