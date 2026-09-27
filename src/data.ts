@@ -156,7 +156,7 @@ export const PROJECTS: ProjectItem[] = [
     ],
     techStack: ['Arduino / Embedded C', 'Capacitive Soil Sensor v1.2', '5V Relay Module', '12V DC Solenoid Pump']
   },
-];
+
 
 {
     id: 'foodgrid',
